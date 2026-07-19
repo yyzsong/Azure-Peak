@@ -26,11 +26,13 @@
 		/datum/skill/craft/crafting = SKILL_LEVEL_JOURNEYMAN,
 		/datum/skill/craft/carpentry = SKILL_LEVEL_JOURNEYMAN,
 		/datum/skill/labor/lumberjacking = SKILL_LEVEL_EXPERT,
-		/datum/skill/craft/masonry = SKILL_LEVEL_JOURNEYMAN, 
+		/datum/skill/craft/masonry = SKILL_LEVEL_JOURNEYMAN,
+		/datum/skill/craft/ceramics = SKILL_LEVEL_JOURNEYMAN,
 		/datum/skill/misc/athletics = SKILL_LEVEL_EXPERT,
 		/datum/skill/misc/reading = SKILL_LEVEL_JOURNEYMAN,
 		/datum/skill/misc/medicine = SKILL_LEVEL_APPRENTICE,
 		/datum/skill/craft/sewing = SKILL_LEVEL_APPRENTICE,
+		/datum/skill/craft/tanning =  SKILL_LEVEL_APPRENTICE,
 		/datum/skill/craft/armorsmithing = SKILL_LEVEL_EXPERT,
 		/datum/skill/craft/blacksmithing = SKILL_LEVEL_MASTER,
 		/datum/skill/craft/weaponsmithing = SKILL_LEVEL_EXPERT,
@@ -52,19 +54,22 @@
 	cloak = /obj/item/clothing/cloak/templar/malumite
 	armor = /obj/item/clothing/suit/roguetown/armor/leather/studded
 	shirt = /obj/item/clothing/suit/roguetown/shirt/tunic/white
-	backl = /obj/item/storage/backpack/rogue/satchel
-	beltr = /obj/item/storage/belt/rogue/pouch/coins/poor
+	backl = /obj/item/storage/backpack/rogue/backpack
+	beltl = /obj/item/flashlight/flare/torch/lantern/prelit
+	beltr = /obj/item/storage/hip/orestore/bronze
 	belt = /obj/item/storage/backpack/rogue/satchel/beltpack
 	gloves = /obj/item/clothing/gloves/roguetown/angle/grenzelgloves/blacksmith
 	shoes = /obj/item/clothing/shoes/roguetown/boots/leather/reinforced
 	wrists = /obj/item/clothing/neck/roguetown/psicross/malum
 	backpack_contents = list(
-		/obj/item/flashlight/flare/torch/lantern/prelit = 1,
+		/obj/item/rogueweapon/tongs = 1,
 		/obj/item/ritechalk = 1,
 		/obj/item/reagent_containers/glass/bottle/alchemical/healthpot = 1,
 		/obj/item/rogueweapon/huntingknife/combat = 1,
 		/obj/item/rogueweapon/scabbard/sheath = 1,
-		/obj/item/riddleofsteel = 1
+		/obj/item/riddleofsteel = 1,
+		/obj/item/storage/belt/rogue/pouch/coins/mid = 1,
+		/obj/item/rogueweapon/hammer/iron = 1
 		)
 
 /datum/outfit/job/roguetown/wretch/munitioneer/choose_loadout(mob/living/carbon/human/H)
